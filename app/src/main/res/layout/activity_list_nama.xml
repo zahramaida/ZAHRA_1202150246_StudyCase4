@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.android.zahra_1202150246_modul4.ListNama">
+
+    <TextView
+        android:id="@+id/tv_list_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Nama Mahasiswa"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/asynctask_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="Progress"
+        android:layout_gravity="center"
+        android:text="Mulai AsyncTask"
+        android:background="@color/merahoren"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <ListView android:id="@+id/listMahasiswa"
+        android:paddingTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>

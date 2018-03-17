@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.android.zahra_1202150246_modul4.CariGambar">
+
+    <TextView
+        android:id="@+id/searchGambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:paddingBottom="16dp"
+        android:textAlignment="center"
+        android:text="Cari Gambar"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/search_gambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan URL Gambar"
+        android:textAlignment="center"
+        android:textColor="@color/brown"/>
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:text="Klik untuk mencari gambar"
+        android:background="@color/merahoren"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:onClick="onClick"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:padding="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

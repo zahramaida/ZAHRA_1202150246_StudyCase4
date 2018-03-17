@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ZAHRA_1202150246_MODUL4</string>
+
+    <string-array name="mahasiswa">
+        <item>Dean</item> <item>Zara</item> <item>Shawn</item> <item>Nick</item>
+        <item>Keemi</item> <item>Ceendy</item> <item>Avery</item> <item>Elgar</item>
+        <item>Everett</item> <item>Cheryl</item> <item>Axel</item> <item>Frantz</item>
+        <item>Gryzelda</item> <item>Harvey</item> <item>Caroline</item> <item>Arvin</item>
+        <item>Gustave</item> <item>Avellino</item> <item>Fitzgerad</item> <item>Shannon</item>
+        <item>Stephanie</item> <item>William</item> <item>Lillian</item> <item>Gilbert</item>
+        <item>Maureen</item> <item>Vallentino</item> <item>Zack</item> <item>Issette</item>
+        <item>Eleana</item> <item>Bryant</item>
+    </string-array>
+
+</resources>
